@@ -1,12 +1,15 @@
 # financial_plotly
 
 ## 效果演示
+![image](https://raw.githubusercontent.com/langouster/financial_plotly/master/example/screenshot/example.png)
+
+![image](https://raw.githubusercontent.com/langouster/financial_plotly/master/example/screenshot/zoom.png)
 
 ## 说明
 
-此项目是对https://plot.ly/python/的二次封装，用于把python的dataframe直接画图，而不再需要操作画图相关的api。
+此项目主要用于画财经图，如量化分析数据，它是对 https://plot.ly/python/ 的二次封装，用于把python的dataframe直接画图，而不再需要操作画图相关的api。
 
-除了不需要复杂的api就可以显示图外，还可以自动重新采样显示有大量数据的datafram，当对图的某部分放大时会重新加载这个部分的数据，而不是简单的图形放大
+除了不需要复杂的api就可以显示图外，还可以自动重新采样显示有大量数据的dataframe，当对图的某部分放大时会重新加载这个部分的数据以显示更多细节，而不是简单的图形放大。
 
 图标的x轴使用dataframe的index, 我一般用datetime时间
 
